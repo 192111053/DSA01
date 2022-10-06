@@ -1,16 +1,18 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-void add(int a, int b)
+void pr(int a)
 {
-  cout << "sum = " << (a + b);
-} 
-void add(double a, double b)
-{
-    cout << endl << "sum = " << (a + b);
+  cout<<"Integer: "<<a<<endl;
 }
+void pr(float a)
+{
+  cout<<"Float: "<<a<<endl;
+}
+
 int main()
 {
-    add(55,72);
-    add(8.3, 7.2);
-    return 0;
+  int k=10;
+  float g=10.10;
+  pr(k);
+  pr(g);
 }

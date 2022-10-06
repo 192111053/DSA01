@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void ch(int &a)
+void ch(int a)
 {
   a+=5;
   cout<<a<<endl;
